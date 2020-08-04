@@ -1,15 +1,3 @@
-# Engineering Challenge Homework
-
-
-## [Install GO runtime](https://golang.org/doc/install)
-
-
-## Run the emulator
-
-```
-make build
-make run
-
 GO111MODULE=on go build -o order-emulator ./cmd/order-emulator
 ./order-emulator --filename ./var/orders.json --rate 2
 emulator.go:47: emulator start, 2 order per second, total 132
@@ -541,6 +529,3 @@ emulator.go:80: PickUp the order name Mac & Cheese, temp hot, value 0.992537, ag
 emulator.go:80: PickUp the order name Pistachio Ice Cream, temp frozen, value 0.993143, age 3s
 emulator.go:80: PickUp the order name Corn Dog, temp hot, value 0.994089, age 4s
 emulator.go:80: PickUp the order name Grilled Corn Salad, temp cold, value 0.998033, age 6s
-
-
-```
